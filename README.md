@@ -2,6 +2,8 @@
 
 Create a backend API using Express that performs full CRUD on a single model, `transactions`. Then, using RESTful routes, connect it to a React app.
 
+To view deployed solution to backend API, click [here](https://budgeting-app-back-end.herokuapp.com/)
+
 ![](./assets/index-page.png)
 
 ![](./assets/new-page.png)
