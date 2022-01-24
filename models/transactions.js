@@ -3,7 +3,7 @@ const { v4 } = require('uuid');
 const transactions = [
     {
       id: "",
-      date: "April 1, 2019",
+      date: "2019-04-01",
       title: "Income",
       amount: 1000,
       from: "Employer",
@@ -12,7 +12,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 1, 2019",
+      date: "2019-04-01",
       title: "Taxes",
       amount: -300,
       from: "Accountant",
@@ -21,7 +21,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 1, 2019",
+      date: "2019-04-01",
       title: "Retirement",
       amount: -200,
       from: "Fidelity",
@@ -30,7 +30,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 1, 2019",
+      date: "2019-04-01",
       title: "Savings",
       amount: -100,
       from: "Savings Bank",
@@ -39,7 +39,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 1, 2019",
+      date: "2019-04-01",
       title: "Credit Card Payment",
       amount: -100,
       from: "Discover",
@@ -48,7 +48,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 5, 2019",
+      date: "2019-04-05",
       title: "Monthly Birthday Money from Aunt Tilda",
       amount: 20,
       from: "Zelle",
@@ -57,7 +57,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 5, 2019",
+      date: "2019-04-05",
       title: "Coffee",
       amount: -4,
       from: "Starbucks",
@@ -66,7 +66,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 5, 2019",
+      date: "2019-04-05",
       title: "Internet",
       amount: -100,
       from: "Verizon",
@@ -75,7 +75,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 3, 2019",
+      date: "2019-04-03",
       title: "Groceries",
       amount: -76,
       from: "Deli",
@@ -84,7 +84,7 @@ const transactions = [
     },
     {
       id: "",
-      date: "April 3, 2019",
+      date: "2019-04-03",
       title: "Pet Food",
       amount: -7,
       from: "Petco",
