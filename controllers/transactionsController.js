@@ -61,7 +61,7 @@ transactionsRouter.delete("/:index", (request, response) => {
   const { index } = request.params;
   const indexFound = transactions.findIndex((transaction) => transaction.id == index)
   //-1 if not found
-  if (indexFound) {
+  if (indexFound >= 0) {
     transactions.splice(indexFound, 1);
     response.json(transactions);
   } else {
@@ -75,7 +75,7 @@ transactionsRouter.put("/:index", (request, response) => {
   const { index } = request.params;
   const indexFound = transactions.findIndex((transaction) => transaction.id == index)
   //First check if the object to update exists
-  if (indexFound) {
+  if (indexFound >= 0) {
     //Then update it
     if (isValid(request.body)) {
       transactions[indexFound] = request.body;
